@@ -14,19 +14,19 @@
 
 /* ── Palette ────────────────────────────────────────────────────────────────
    Ported from the legacy gallery's own SCSS variables (the legacy env key for
-   Porcelain is `dca`, not `porcelain`), plus the shared MWNF Galleries values.
+   Porcelain is `por`), plus the shared MWNF Galleries values.
 
-   Porcelain is its own brand — olive/khaki where amulets is terracotta — so
+   Porcelain is its own brand — each legacy gallery had its own palette — so
    nothing here is shared with a sibling gallery. --theme-dark-rgb is the same
    colour as --theme-dark in a form the translucent overlays can take an alpha
    on, so a palette change never has to be chased into a component. */
 :root {
-  --theme-dark:        #504819;  /* banner, header, footer */
-  --theme-dark-rgb:    80, 72, 25;
-  --theme-medium-dark: #6b612b;  /* dark menu items */
-  --theme-medium:      #7e743e;  /* text background, search button */
-  --theme-light:       #91864d;  /* light menu items */
-  --background-color:  #fffff0;  /* page background */
+  --theme-dark:        #4b4d1b;  /* banner, header, footer */
+  --theme-dark-rgb:    75, 77, 27;
+  --theme-medium-dark: #6e702b;  /* dark menu items */
+  --theme-medium:      #818333;  /* text background, search button */
+  --theme-light:       #91943e;  /* light menu items */
+  --background-color:  #f4f5df;  /* page background */
 
   --shadow-grey:  #707070;
   --link-blue:    #0000ff;
